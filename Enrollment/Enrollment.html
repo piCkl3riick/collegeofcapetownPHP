@@ -1,0 +1,151 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta Class="viewport" content="width=device-width, initial-scale=1">
+	<title>College of Cape Town Enrollment</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/form-elements.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Favicon and touch icons -->
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+	</head>
+
+	<!-- Top content -->
+
+	<body>
+	<div style="position:relative; padding-right:9; padding-top: -30%;">
+	  <ul style="position:relative; list-style: none;" >
+		<li  ><a href="../index.html"><img alt="Home navi" class="Home NavSize" 
+					src="navigations/Home/Home.png"/>
+		  <p class="Home textDesign" style="left: 58%; top: 2.7%; font-size: medium; text-decoration: none;">Home</p>
+		  </a></li>
+		<li><a href="../Gallary.html"><img alt="Gallery" class="Gallery navi NavSize" 
+					src="navigations/Gallery/Gallery.png" />
+		  <p class="Gallery" style="left: 67.5%; top: 2.7%; font-size: medium; vertical-align: middle; text-decoration: none;">Gallery</p>
+		  </a></li>
+		<li><a href="Enrollment.html"><img alt="Enrollment" class="Enrollment navi NavSize" src="navigations/Enrollment/Enrollment.png" />
+		  <p class="Enrollment" style="left: 74%; top: 2.7%; font-size: medium; vertical-align: middle; text-decoration: none;">Enrollment</p>
+		  </a> </li>
+		<li><a href="AboutUs.html "><img alt="About Us" class="AboutUs navi NavSize"
+					src="navigations/About us/About us.png" />
+		  <p class="AboutUs" style="left: 89.5%; top: 2.7%; font-size: medium; 
+					vertical-align: middle; text-decoration: none;">About Us</p>
+		  </a></li>
+		<li><a  href="Contact Us.html"><img alt="Contact Us" class="ContactUs navi NaviSize"
+					src="navigations/Contact/Contact us.png" />
+		  <p class="ContactUs" style="left: 98%; top: 2.7%; font-size: medium; vertical-align: middle; text-decoration: none;">Contact Us</p>
+		  </a></li>
+	  </ul>
+	</div>
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		
+	<!-- All Fields Radio buttons -->
+	<div class="checkboxes-and-radios checkboxes-and-radios-frst">
+	  <h1>ALL FIELDS:</h1>
+	  <input type="radio" name="radio-cats" id="radio-1" value="1">
+	  <label for="radio-1">Information Technology and Science</label>
+	  <input type="radio" name="radio-cats" id="radio-2" value="2">
+	  <label for="radio-2">Business Management</label>
+	  <input type="radio" name="radio-cats" id="radio-3" value="3">
+	  <label for="radio-3">Early Childhood Development</label>
+	</div>
+
+	<!-- Second Form for I.T radio selection -->
+	<section class="checkboxes-and-radios checkboxes-and-radios-IT">
+	  <button type="button" name="checkbox-cats[]" id="button-backIT" value="0">Back to all studies?</button>
+	  <h1>Information Technology and Computer Science: L4</h1>
+		
+	<div class="checkbox">
+		<input type="checkbox" name="checkbox-cats[]" id="checkbox-1" class="sumIT" value="2565" data-toggle="checkbox">
+		<label for="checkbox-1">Data Communications and Networking</label>
+	 </div>
+	
+	  	<div class="checkbox">
+			<input type="checkbox" name="checkbox-cats[]" id="checkbox-2" class="sumIT" value="2657" data-toggle="checkbox">
+	  <label for="checkbox-2">Computer Programming</label>
+			</div>
+		
+		<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-3" class="sumIT" value="2565" data-toggle="checkbox">
+	  <label for="checkbox-3">Systems Analysis and Design</label>
+		</div>
+			
+		<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-4" class="sumIT" value="1263" data-toggle="checkbox">
+	  <label for="checkbox-4">Multimedia Service</label>
+		</div >
+		<textarea  type="text" id="totalIT"></textarea>
+		
+	</section>
+	<!-- Third Form forBus radio selection -->
+	<section class="checkboxes-and-radios checkboxes-and-radios-BUS">
+	  <button type="button" Class="checkbox-cats[]" id="button-backBus" value="0">Back to all studies?</button>
+	  <h1>Business Management: L3 - L4</h1>
+		<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-bus1" class="sumBUS" value="1263" data-toggle="checkbox">
+	  <label for="checkbox-bus1">Management Practice</label></div>
+		
+		<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-bus2" class="sumBUS" value="1263" data-toggle="checkbox" >
+	  <label for="checkbox-bus2">Operations Management</label></div>
+		
+			<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-bus3" class="sumBUS" value="1263" data-toggle="checkbox" >
+	  <label for="checkbox-bus3">Financial Management</label></div>
+		
+	<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-bus4" class="sumBUS" value="1263" data-toggle="checkbox">
+	  <label for="checkbox-bus4">Project Management</label></div>
+		<textarea  type="text" id="totalBus"></textarea>
+	</section>
+
+	<!--Fourth Form for ECD radio selection -->
+	<section class="checkboxes-and-radios checkboxes-and-radios-ECD">
+<button type="button" Class="checkbox-cats[]" id="button-backEcd" 		value="0">Back to all studies?</button>
+	  <h1>Early Childhood Develoment: L4</h1>
+<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-Ecd1" class="sumECD" value="1263" data-toggle="checkbox">
+	  <label for="checkbox-Ecd1">Early Childhood Development</label></div>
+		
+<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-Ecd2" class="sumECD" value="1263" data-toggle="checkbox" >
+	  <label for="checkbox-Ecd2">Human and Social Development</label></div>
+
+<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-Ecd3" class="sumECD" value="1263" data-toggle="checkbox" >
+	  <label for="checkbox-Ecd3">Art and Science of Teaching</label></div>
+		
+	<div class="checkbox">
+	  <input type="checkbox" name="checkbox-cats[]" id="checkbox-Ecd4" class="sumECD" value="1263" data-toggle="checkbox">
+	  <label for="checkbox-Ecd4">Learning Psychology</label></div>
+		<textarea  type="text" id="totalEcd"></textarea>
+	</section>
+		
+		
+		
+
+	<!-- Javascript --> 
+	<script src="assets/js/jquery-1.11.1.min.js"></script> 
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+	<script src="assets/js/jquery.backstretch.min.js"></script> 
+	<script src="assets/js/scripts.js"></script> 
+	<script src="../js/AnimateSecForm.js"></script>
+	<script src="../js/ProcessingJavaS.js"></script>
+	<!--[if lt IE 10]>
+					<script src="assets/js/placeholder.js"></script>
+				<![endif]-->
+
+	</body>
+	</html>

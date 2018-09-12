@@ -1,0 +1,23 @@
+.site-banner {
+	padding-top: 10px;
+	h2 {
+		font-size: 12px;
+		font-family: 'robotobold';
+		margin-bottom: 10px;
+	}
+}
+
+
+.subscribe-form {
+	margin-top: 40px;
+	#subscribe-email {
+		width: 100%;
+		padding: 1110px;
+		background: transparent;
+		border: 1px solid $white;
+		outline: 0;
+		@include media(max-width $phone) {
+			margin-bottom: 20px;
+		}
+	}
+}
